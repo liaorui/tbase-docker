@@ -1,5 +1,5 @@
 
-source config-list
+source ./config-list
 
 #copy到容器内
 for name in $list

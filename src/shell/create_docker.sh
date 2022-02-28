@@ -1,4 +1,4 @@
-source config-list
+source ./config-list
 
 docker network rm pgsql
 docker network create --subnet=172.42.0.0/16 -d bridge pgsql

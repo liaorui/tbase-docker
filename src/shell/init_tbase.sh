@@ -1,4 +1,4 @@
-source config-list
+source ./config-list
 
 echo "创建目录"
 for name in $list
