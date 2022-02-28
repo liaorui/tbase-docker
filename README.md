@@ -7,14 +7,14 @@
 
 
 ### shell使用方法
-####手工执行顺序如下：
+#### 手工执行顺序如下：
 1. `sh rebuild_run_docker.sh` 重新构建镜像,编译安装tbase
 2. `sh create_docker.sh` 创建容器并且复制脚本
 3. 执行`sh run_createuser.sh`和`sh run_createrootrsa.sh`
 4. 执行`sh create_authkey.sh`
 5. `sh init_tbase.sh`
 
-####直接执行脚本:
+#### 直接执行脚本:
 `chmod +x *.sh`
 `autoStart.sh`
 
@@ -32,5 +32,5 @@
 (4 rows)
 
 
-###连接
+### 连接tbase
 `psql -h ${CoordinateNode_IP} -p ${CoordinateNode_PORT} -U ${pgxcOwner} -d postgres`
