@@ -15,8 +15,7 @@
 5. `sh init_tbase.sh`
 
 #### 直接执行脚本:
-`chmod +x *.sh`
-`autoStart.sh`
+`chmod +x *.sh && autoStart.sh`
 
 
 
@@ -31,6 +30,11 @@
  |dn002     | D         |     20009 | 172.42.0.13 | f              | f                |  -17499968 | tbase_cluster
 (4 rows)
 
+ 
 
+ 
 ### 连接tbase
 `psql -h ${CoordinateNode_IP} -p ${CoordinateNode_PORT} -U ${pgxcOwner} -d postgres`
+
+ 
+  
